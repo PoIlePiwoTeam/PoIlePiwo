@@ -17,6 +17,8 @@ public class Test4 {
 		assertEquals(it+1, bd.getMaxId());
 		bd.deleteItem(it+1);
 		assertEquals(it, bd.getMaxId());
+		//Baza danych dzia³a
+		
 	}
 
 }

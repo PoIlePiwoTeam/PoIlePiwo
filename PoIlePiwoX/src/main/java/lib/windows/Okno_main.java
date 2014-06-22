@@ -118,7 +118,7 @@ public class Okno_main extends Okno_wzor implements ActionListener, WindowListen
 
 
 
-	@Override
+
 	public void windowActivated(WindowEvent arg0) {
 		// TODO Auto-generated method stub
 		
@@ -126,7 +126,7 @@ public class Okno_main extends Okno_wzor implements ActionListener, WindowListen
 
 
 
-	@Override
+
 	public void windowClosed(WindowEvent arg0) {
 		// TODO Auto-generated method stub
 		
@@ -134,7 +134,7 @@ public class Okno_main extends Okno_wzor implements ActionListener, WindowListen
 
 
 
-	@Override
+
 	public void windowClosing(WindowEvent arg0) {
 		// TODO Auto-generated method stub
 		System.exit(0);
@@ -142,7 +142,7 @@ public class Okno_main extends Okno_wzor implements ActionListener, WindowListen
 
 
 
-	@Override
+
 	public void windowDeactivated(WindowEvent arg0) {
 		// TODO Auto-generated method stub
 		
@@ -150,7 +150,7 @@ public class Okno_main extends Okno_wzor implements ActionListener, WindowListen
 
 
 
-	@Override
+
 	public void windowDeiconified(WindowEvent arg0) {
 		// TODO Auto-generated method stub
 		
@@ -158,7 +158,7 @@ public class Okno_main extends Okno_wzor implements ActionListener, WindowListen
 
 
 
-	@Override
+
 	public void windowIconified(WindowEvent arg0) {
 		// TODO Auto-generated method stub
 		
@@ -166,7 +166,7 @@ public class Okno_main extends Okno_wzor implements ActionListener, WindowListen
 
 
 
-	@Override
+
 	public void windowOpened(WindowEvent arg0) {
 		// TODO Auto-generated method stub
 		

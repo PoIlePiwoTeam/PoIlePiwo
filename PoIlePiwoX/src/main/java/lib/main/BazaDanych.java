@@ -133,7 +133,7 @@ public class BazaDanych {
 	
 	
 	public List<HistoryItem> GetAllItemsHistory(){
-		
+		//Test
 		List<HistoryItem> items = new ArrayList<HistoryItem>();
 		try{
 			ResultSet result = statement.executeQuery("SELECT * FROM history");

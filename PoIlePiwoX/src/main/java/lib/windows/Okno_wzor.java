@@ -14,7 +14,7 @@ public abstract class Okno_wzor extends JFrame implements ActionListener, Window
 	private static final long serialVersionUID = 1L;
 	private Okno_wzor last_Form;
 
-	@Override
+
 	public void windowClosing(WindowEvent arg0) {
 		// TODO Auto-generated method stub
 		System.out.println("IM HERE");

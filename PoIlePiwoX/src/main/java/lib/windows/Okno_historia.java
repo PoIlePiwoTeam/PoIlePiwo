@@ -63,7 +63,11 @@ public class Okno_historia extends Okno_wzor implements ActionListener, WindowLi
 			for(int j=0;j<itl.length;j++){
 				System.out.println("robie");
 				Item nx = Init.getItemsDb().GetItem(Integer.parseInt(itl[j]));
+				if(nx ==null){
+					topPanel.setText(topPanel.getText()+"\t*Brak informacji o produkcie\n");
+				}else{
 				topPanel.setText(topPanel.getText()+"\t*"+nx.getNazwa()+"\n");
+				}
 			}
 		}
 		

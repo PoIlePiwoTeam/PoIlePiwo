@@ -151,7 +151,7 @@ public class Okno_dodaj extends Okno_wzor implements ActionListener, WindowListe
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
 		if(e.getActionCommand().equals("Anuluj")){
-			lib.main.Init.getOkno("Dodaj").setVisible(false);
+			lib.main.Init.backForm(this);
 		}
 		
 		if(e.getActionCommand().equals("Dodaj")){

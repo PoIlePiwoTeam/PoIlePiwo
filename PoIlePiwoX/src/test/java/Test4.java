@@ -14,9 +14,9 @@ public class Test4 {
 		BazaDanych bd = new BazaDanych();
 		int it = bd.getMaxId();
 		bd.insertItem(new Item(-1,"Mleko","Nabia³","NA","NA",10,(float) 2.7));
-		assertEquals(it+1, bd.getMaxId());
-		bd.deleteItem(it+1);
-		assertEquals(it, bd.getMaxId());
+		assertEquals(true, it < bd.getMaxId());
+		bd.deleteItem(bd.getMaxId());
+		assertEquals(true, it == bd.getMaxId());
 	}
 
 }
